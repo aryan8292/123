@@ -6,8 +6,8 @@ import { Server, Radio, Users, Settings, Send, Plus, AlertCircle, CheckCircle2, 
 export default function WhatsAppDashboard() {
   // --- GLOBAL STATE ---
   const [activeTab, setActiveTab] = useState("nodes");
-  const [vpsIp, setVpsIp] = useState("");
-  const [apiKey, setApiKey] = useState("");
+  const [vpsIp, setVpsIp] = useState("64.227.145.228");
+  const [apiKey, setApiKey] = useState("pandit");
   const [globalLog, setGlobalLog] = useState<string[]>(["> System initialized. Awaiting secure connection."]);
 
   // --- NODE MANAGEMENT STATE ---
